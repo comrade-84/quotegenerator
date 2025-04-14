@@ -41,6 +41,14 @@ body{
     align-items: center;
     position: absolute;
     left: 43%;
+    box-shadow: 1px 1px 10px  hsl(150, 100%, 66%);
     /* margin: 10px auto; */
     background-color: hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width:500px) {
+    .container{
+        width: 80%;
+
+    }
 }
